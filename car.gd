@@ -88,7 +88,7 @@ func _on_IdleTimer_timeout() -> void:
 
 
 func get_distance(raycast: RayCast2D) -> float:
-	var distance: float = 0.0
+	var distance: float = 1.0
 	if raycast.is_colliding():
 		var raycast_length: float = raycast.cast_to.y
 		var origin: Vector2 = raycast.global_transform.get_origin()
