@@ -44,7 +44,7 @@ func respawn():
 		cars[1][1],
 		cars[2][1],
 		cars[3][1],
-		NeuralNetwork.new(15, 31, 3)
+		NeuralNetwork.new(8, 31, 3)
 	]
 	
 	for i in range(nns.size() * 2):
